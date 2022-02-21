@@ -1,0 +1,59 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning content | block2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container clearfix">
+            <a class="brand" href="">
+                <img src="assets/media/rajgirlogp.png" alt="brand logo">
+            </a>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container clearfix">
+                <article class="col">
+                    <img class="article-img" src="assets/media/pic01.png" alt="pic1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt natus tempore temporibus quo ut aut aliquam exercitationem minima, aspernatur dignissimos quaerat ullam labore eligendi, vero reiciendis tempora cum. Repellendus, delectus?</p>
+                </article>
+                <article class="col">
+                    <img class="article-img" src="assets/media/pic02.png" alt="pic1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt natus tempore temporibus quo ut aut aliquam exercitationem minima, aspernatur dignissimos quaerat ullam labore eligendi, vero reiciendis tempora cum. Repellendus, delectus?</p>
+                </article>
+                <article class="col">
+                    <img class="article-img" src="assets/media/pic03.png" alt="pic1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt natus tempore temporibus quo ut aut aliquam exercitationem minima, aspernatur dignissimos quaerat ullam labore eligendi, vero reiciendis tempora cum. Repellendus, delectus?</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container clearfix">
+            <small> &copy; Kunal</small>
+            <nav>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </nav>
+        </div>
+    </footer>
+</html>
